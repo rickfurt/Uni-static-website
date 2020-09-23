@@ -1,0 +1,123 @@
+<!-- Ricardo Furtado -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/69541371c4.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/style.css">
+<title>Melbourne Marina Hotel Contact Us Page</title>
+</head>
+<body>
+<!--header start -->
+<div id="menu">
+    <header>
+        <ul id="main-menu">
+            <li class="menu-item"><a href="index.html">Home</a></li>
+            <li class="menu-item"><a href="about.html">About us</a></li>
+            <li class="menu-item"><a href="rooms.html">Rooms & Suites</a></li>
+            <li class="menu-item"><a href="offers.html">Special Offers</a></li>
+            <li class="menu-item"><a href="gallery.html">Gallery</a></li>
+            <li class="menu-item"><a href="dining.html">Food & Dining</a></li>
+            <li class="menu-item"><a href="meetings.html">Meeting & Events</a></li>
+            <li class="menu-item"><a href="faqs.html">FAQs</a></li>
+            <li class="menu-item"><a href="support.html">Customer Support</a></li>
+            <li class="menu-item"><a href="media.html">Media</a></li>
+            <li class="menu-item"><a href="feedback.html">Share Feedback</a></li>
+            <li class="menu-item"><a href="contact.html">Contact</a></li>
+            <li class="menu-item"><a href="references.html">References</a></li>
+        </ul>
+        <ul id="main-menu-mobile">
+            <li class="menu-item"><a href="index.html">Home</a></li>
+            <li class="menu-item"><a href="about.html">About us</a></li>
+            <li class="menu-item"><a href="rooms.html">Rooms & Suites</a></li>
+            <li class="menu-item"><a href="offers.html">Special Offers</a></li>
+            <li class="menu-item"><a href="gallery.html">Gallery</a></li>
+            <li class="menu-item"><a href="dining.html">Food & Dining</a></li>
+            <li class="menu-item"><a href="meetings.html">Meeting & Events</a></li>
+            <li class="menu-item"><a href="faqs.html">FAQs</a></li>
+            <li class="menu-item"><a href="support.html">Customer Support</a></li>
+            <li class="menu-item"><a href="media.html">Media</a></li>
+            <li class="menu-item"><a href="feedback.html">Share Feedback</a></li>
+            <li class="menu-item"><a href="contact.html">Contact</a></li>
+            <li class="menu-item"><a href="references.html">References</a></li>
+        </ul>
+    </header>
+</div>
+<div id="mobile-menu-wrapper" onclick="toggleDisplay();">
+    <div id="mobile-menu">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div><!--header end-->
+<!--content start-->
+<article class="row col-12 col-s-12">
+<h1>Melbourne Marina Hotel Contact Us</h1>
+<p>Write Us</p>
+<p>Jot us a note and we'll get back to you as quickly as possible.</p>
+<form onsubmit="contactFunction()" method="POST">
+<label for="name">Name <span class="spanclolor">*</span></label>
+<input type="text" id="yourname" name="yourname" placeholder="Your name.." required>
+<label for="email">Email <span class="spanclolor">*</span></label>
+<input type="email" id="youremail" name="youremail" placeholder="Your Email ID.." required>
+<label for="phonenumber">Phone Number</label>
+<input type="number" id="yourphonenumber" name="yourphonenumber" placeholder="Phone Number..">
+<label for="message">What's on your mind <span class="spanclolor">*</span></label>
+<textarea id="yourmessage" name="yourmessage" required placeholder="Write something.." style="height:100px"></textarea>
+<input type="submit" value="Submit">
+</form>
+</article>
+<!--content end-->
+<!--footer start-->
+<div id="footer">
+    <div id="footer-wrapper">
+        <h3 id="footer-company">Melbourne Marina Hotel</h3>
+        <div id="collum-main">
+            <div class="collum-item">
+                <h3 class="footer-menu-title">Quick Links</h3>
+                <ul class="footer-menu">
+                    <li><i class="fas fa-home"></i><a href="index.html">Home</a></li>
+                    <li><i class="fas fa-person-booth"></i><a href="rooms.html">Rooms & Suites</a></li>
+                    <li><i class="fas fa-images"></i><a href="gallery.html">Gallery</a></li>
+                    <li><i class="fas fa-photo-video"></i><a href="media.html">Media</a></li>
+                </ul>
+            </div>
+            <div class="collum-item">
+                <h3 class="footer-menu-title">General Information</h3>
+                <ul class="footer-menu">
+                    <li><i class="fas fa-info-circle"></i><a href="about.html">About us</a></li>
+                    <li><i class="fas fa-utensils"></i><a href="dining.html">Food & Dining</a></li>
+                    <li><i class="far fa-handshake"></i><a href="meetings.html">Meeting & Events</a></li>
+                    <li><i class="far fa-question-circle"></i><a href="faqs.html">FAQs</a></li>
+                    <li><i class="fas fa-map-signs"></i><a href="references.html">References</a></li>
+                </ul>
+            </div>
+            <div class="collum-item">
+                <h3 class="footer-menu-title">Contact</h3>
+                <ul class="footer-menu">
+                    <li><i class="fas fa-info-circle"></i><a href="support.html">Customer Support</a></li>
+                    <li><i class="fas fa-comments"></i><a href="feedback.html">Share Feedback</a></li>
+                    <li><i class="fas fa-envelope"></i><a href="contact.html">Contact</a></li>
+                </ul>
+                <div id="social-wrapper">
+                    <h4>Follow us at</h4>
+                    <a href="https://facebook.com"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://instagram.com"><i class="fab fa-instagram-square"></i></a>
+                    <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://google.com/"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="https://youtube.com"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+<div id="copyright">Melbourne Marina Hotel &copy; 2020 | Website developed by the WPDD students: K200579, K200558, K200573, K200551<p><a href="https://html5.validator.nu/" target="_blank"><img id="validator" src="images/validation.jpg" alt="Validation"/></a></p></div>
+</div>
+<!--footer-end-->
+<script src="./javascript/index.js"></script>
+</body>
+</html>

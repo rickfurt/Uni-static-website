@@ -63,12 +63,16 @@ header {
     border-top: 2px solid#fff;
     border-bottom: 2px solid#fff;
     padding: 6px;
+    transition-duration: 0.5s;
+    transition:ease-in-out
     /* overflow: hidden; */
 }
 
 #contact-link:hover{
     background-color: #fff;
     color: #ff1616;
+    border-top: 2px solid#ff1616;
+    border-bottom: 2px solid#ff1616;
 }
 
 #contact-icon{

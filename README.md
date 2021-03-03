@@ -1,5 +1,7 @@
 # Simple Hotel Landing page
 
+## Live demo -> [Demo](https://rickfurt.github.io/Uni-static-website/) 
+
 This project was created for my 1st year on my bachelor degree.
 
 Stack used:
